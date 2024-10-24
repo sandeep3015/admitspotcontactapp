@@ -1,0 +1,33 @@
+.contactTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.contactTable th,
+.contactTable td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.contactTable th {
+    background-color: black;
+    color: white;
+}
+
+.deleteButton {
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.deleteButton:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+

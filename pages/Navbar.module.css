@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    border: 1px rgb(246, 246, 246) solid;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.left h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.button:hover {
+    background-color: #2702f6;
+    color: white;
+    border: none;
+}

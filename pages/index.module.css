@@ -1,0 +1,10 @@
+
+.home {
+    background-image: url('https://resources.sansan.com/hubfs/Imported_Blog_Media/Contact-Management.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
